@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title> File Upload </title>
+	<style>
+    h1 {
+			color: green;
+		}
+
+		h2,
+		h3 {
+			font-family: Impact;
+		}
+    body {
+			text-align: center;
+		}
+	</style>
+</head>
+<body align='center'>
+        <header>
+		<h1>File Upload</h1>
+	</header>
+
+ <form action="/uploadProfilePicture" 
+enctype="multipart/form-data" method="POST">
+
+  <span>Upload Profile Picture:</span>  
+  <input type="file" name="mypic" required/> <br>
+  <input type="submit" value="submit"> 
+</form>
+</body>
+
+</html>
